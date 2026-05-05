@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "bash(ls)",
+      "bash(cat)",
+      "bash(grep)",
+      "bash(docker compose *)",
+      "bash(php artisan *)",
+      "bash(npm *)",
+      "git(add)",
+      "git(commit)"
+    ],
+    "ask": [
+      "bash(rm *)",
+      "bash(rm -rf *)",
+      "git(push)",
+      "git(reset --hard *)"
+    ],
+    "deny": []
+  }
+}
